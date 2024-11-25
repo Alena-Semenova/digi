@@ -1,5 +1,5 @@
 # digi
-
+Развернутое приложение: https://silly-tiramisu-5b86f9.netlify.app/
 ## Project setup
 ```
 npm install
