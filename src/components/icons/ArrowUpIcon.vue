@@ -1,0 +1,35 @@
+<script>
+import IconWrapper from "@/components/icons/IconWrapper.vue"
+
+export default {
+    name: 'ArrowUpIcon',
+    props: {
+        color: {
+            type: String
+        },
+        width: {
+            type: String,
+            required: false,
+        },
+        height: {
+            type: String,
+            required: false,
+        }
+    },
+    components: {
+        IconWrapper
+    }
+}
+</script>
+
+<template>
+    <IconWrapper :color="color" :width="width" :height="height">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+            <g opacity="0.3">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.5341 12.2071C7.92463 12.5976 8.55779 12.5976 8.94832 12.2071L15.9483 5.20711C16.3388 4.81658 16.3388 4.18342 15.9483 3.79289C15.5578 3.40237 14.9246 3.40237 14.5341 3.79289L8.24121 10.0858L1.94832 3.79289C1.55779 3.40237 0.924628 3.40237 0.534104 3.79289C0.14358 4.18342 0.14358 4.81658 0.534104 5.20711L7.5341 12.2071Z"
+                    fill="currentColor" />
+            </g>
+        </svg>
+    </IconWrapper>
+</template>
